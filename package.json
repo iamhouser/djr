@@ -1,0 +1,20 @@
+{
+  "name": "djr",
+  "version": "1.0.0",
+  "description": "Reporter from Jira to Discord channel",
+  "main": "index.js",
+  "repository": "https://github.com/iamhouser/djr",
+  "author": "Evgeny Domnin",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.14.5",
+    "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node src/index.ts"
+  }
+}
